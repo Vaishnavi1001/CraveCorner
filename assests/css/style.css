@@ -1,0 +1,288 @@
+body {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+:root {
+    --primary-color-darkred: #780116;
+    --primary-color-yellow: #F7B538;
+    --primary-color-orange: #DB7C26;
+    --primary-color-darkorange: #D8572A;
+    --primary-color-red: #C32F27;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto 0;
+}
+
+/* header starts */
+
+header {
+    background: transparent;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 12px;
+}
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+a.navbar-brand {
+    font-size: 35px;
+    font-weight: 600;
+}
+a.navbar-brand:hover,
+a.nav-link:hover {
+    color: var(--primary-color-darkorange) !important;
+}
+a.navbar-brand,
+a.nav-link {
+    color: white !important;
+}
+
+div#navbarSupportedContent {
+    justify-content: center;
+    gap: 2rem;
+}
+
+ul.navbar-nav {
+    gap: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+.orders {
+    display: flex;
+
+}
+
+li.nav-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+button.order-btn {
+    padding: 14px 37px;
+    border-radius: 20px;
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+}
+button.order-btn:hover{
+    background:transparent;
+    color: var(--primary-color-red);
+    border:1px solid var(--primary-color-red);
+    transition: 0.3s ease-in;
+}
+
+/* header ends */
+
+/* main starts */
+
+.hero-sec {
+    background-image:url(../images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+button.hero-btn {
+    padding: 14px 37px;
+    border-radius: 20px;
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+}
+button.hero-btn:hover{
+    padding: 20px 50px;
+    background:transparent;
+    color: var(--primary-color-darkorange);
+    border:1px solid var(--primary-color-darkorange);
+    transition: 0.3s ease-in;
+}
+p.hero-para {
+    color: white;
+    padding-right: 30%;
+}
+h2.hero-heading {
+    color: white;
+    margin-bottom: 5%;
+}
+section.hero-sec {
+    padding-block-start: 15%;
+    padding-block-end: 12%;
+}
+
+/* popular-items section start */
+
+section.popular-items {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h2.popular-heading {
+    text-align: center;
+    margin-bottom: 2%;
+}
+h5.card-title {
+    font-size: 15px;
+    font-weight: 800;
+}
+p.card-rate {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1px;
+}
+button.popular-order-btn {
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5%;
+}
+button.popular-order-btn:hover{
+background:transparent;
+    color: var(--primary-color-darkorange);
+    border:1px solid var(--primary-color-darkorange);
+    transition: 0.3s ease-in;
+}
+/* popular-items section end */
+
+
+/* master-chef section starts */
+section.master-chef {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h2.master-heading {
+    text-align: center;
+    margin-bottom: 2%;
+}
+.chef-card {
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 7%;
+    text-align: center;
+}
+img.chef-image {
+    width: 80%;
+    border-radius: 50%;
+}
+.chef-intro {
+    margin-top: 6%;
+}
+h4.chef-card-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+a.chef-social-link {
+    color: black;
+}
+/* master-chef section ends */
+
+
+/* menu section starts */
+section.menu{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.menu.head {
+    text-align: center;
+}
+ul#pills-tab {
+    display: flex;
+    justify-content: center;
+}
+
+.starter-card {
+    width: 30%;
+}
+.starter-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 3%;
+
+}
+img.starter-img {
+    width: 100%;
+}
+
+
+/* menu section ends */
+
+
+
+/* footer */
+footer.footer {
+    background-color: var(--primary-color-yellow);
+    padding: 5%;
+}
+
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+li.footer-link {
+    list-style: none;
+}
+
+a.footer-info {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+h4.footer-heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.restaurant-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.footer-para1 {
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.restaurant-time {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.opening-time {
+    font-size: 16px;
+    font-weight: 450;
+}
+
+
+a.footer-social-links {
+    color: black;
+}
+
+p.footer-end {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+

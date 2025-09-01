@@ -102,10 +102,9 @@ button.hero-btn {
     border: none;
 }
 button.hero-btn:hover{
-    padding: 20px 50px;
     background:transparent;
-    color: var(--primary-color-darkorange);
-    border:1px solid var(--primary-color-darkorange);
+    color: var(--primary-color-red);
+    border:1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
 p.hero-para {
@@ -129,7 +128,10 @@ section.popular-items {
 }
 h2.popular-heading {
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
 }
 h5.card-title {
     font-size: 15px;
@@ -150,8 +152,8 @@ button.popular-order-btn {
 }
 button.popular-order-btn:hover{
 background:transparent;
-    color: var(--primary-color-darkorange);
-    border:1px solid var(--primary-color-darkorange);
+    color: var(--primary-color-red);
+    border:1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
 /* popular-items section end */
@@ -164,7 +166,10 @@ section.master-chef {
 }
 h2.master-heading {
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
 }
 .chef-card {
     background-color: white;
@@ -195,6 +200,13 @@ section.menu{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+h2.menu-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
 .menu.head {
     text-align: center;
 }
@@ -202,30 +214,174 @@ ul#pills-tab {
     display: flex;
     justify-content: center;
 }
-
-.starter-card {
-    width: 30%;
+button.nav-link.active, .nav-pills .show.nav-link {
+    background-color: var(--primary-color-darkred) !important;
+    color: white !important;
 }
-.starter-items {
+.nav-link {
+    color: black !important;
+}
+button.nav-link:hover {
+    background-color: var(--primary-color-darkred);
+    color: white !important;
+}
+/* starters,lunch,breakfast,dinner */
+.starter-items,
+.lunch-items,
+.breakfast-items,
+.dinner-items {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
     margin-top: 3%;
 
 }
-img.starter-img {
+.starter-card,
+.lunch-card,
+.breakfast-card,
+.dinner-card {
+    width: 21%;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+}
+.starter-imgs,
+.lunch-imgs,
+.breakfast-imgs,
+.dinner-imgs {
+    width: 100%;
+}
+img.starter-img,
+img.lunch-img,
+img.breakfast-img,
+img.dinner-img {
+    width: 100%;
+    border-radius: 12px;
+}
+.starters-intro, .lunch-intro, .breakfast-intro, .dinner-intro {
+    margin-left: 2%;
+    margin-top: 6%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+h4.starters-card-heading,
+h4.lunch-card-heading,
+h4.breakfast-card-heading,
+h4.dinner-card-heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+p.starters-card-para,
+p.lunch-card-para,
+p.breakfast-card-para,
+p.dinner-card-para {
+    font-size: 16px;
+    font-weight: 400;
+}
+p.starters-card-para1,
+p.lunch-card-para1 ,
+p.breakfast-card-para1 ,
+p.dinner-card-para1  {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+del {
+    color: var(--primary-color-darkred);
+    font-weight: 700;
+    padding-left: 3%;
+}
+button.starters-order-btn,
+button.lunch-order-btn,
+button.breakfast-order-btn,
+button.dinner-order-btn {
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5%;
+}
+button.starters-order-btn:hover,
+button.lunch-order-btn:hover,
+button.breakfast-order-btn:hover,
+button.dinner-order-btn:hover{
+background:transparent;
+    color: var(--primary-color-red);
+    border:1px solid var(--primary-color-red);
+    transition: 0.3s ease-in;
+}
+/* menu section ends */
+
+
+/* restaurant-gallery-section starts */
+section.gallery {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h2.gallery-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.gallery-images {
+    width: 30%;
+}
+
+img.gallery-img {
     width: 100%;
 }
 
 
-/* menu section ends */
+/* restaurant-gallery-section ends */
+
+
+/* reserve-table section starts */
+input#name,input#email,input#phone,select#person,input#date,input#time {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.form-group {
+    margin-bottom: 3%;
+}
+
+
+
+button.book-btn {
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: var(--primary-color-darkred);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+button.book-btn:hover {
+    color: var(--primary-color-red);
+    background: none;
+    border: 1px solid var(--primary-color-red);
+}
+/* reserve-table section ends */
 
 
 
 /* footer */
 footer.footer {
-    background-color: var(--primary-color-yellow);
+    background-color: var(--primary-color-darkred);
     padding: 5%;
+    color: white;
 }
 
 .footer-contact-info {
@@ -239,7 +395,7 @@ li.footer-link {
 }
 
 a.footer-info {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 450;
@@ -274,7 +430,7 @@ p.footer-para1 {
 
 
 a.footer-social-links {
-    color: black;
+    color: white;
 }
 
 p.footer-end {

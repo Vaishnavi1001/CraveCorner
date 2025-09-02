@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif !important;
+    scroll-behavior: smooth ;
 }
 
 :root {
@@ -123,6 +124,13 @@ section#about {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.about-heading{
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
 .col-md-4.about-images {
     padding: 0;
 }
@@ -153,8 +161,26 @@ p.about-para,p.time-para {
 }
 p.time-para {
     border-bottom: 1px solid;
+        display: flex;
+    justify-content: space-between;
 }
-
+button.about-btn {
+    width: 30%;
+    margin-top: 3%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: var(--primary-color-darkred);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+button.about-btn:hover{
+background:transparent;
+    color: var(--primary-color-red);
+    border:1px solid var(--primary-color-red);
+    transition: 0.3s ease-in;
+}
 /* about section ends */
 
 
@@ -365,6 +391,9 @@ h2.master-heading {
     border-radius: 10px;
     padding: 7%;
     text-align: center;
+}
+.chef-images:hover img {
+  transform: scale(1.1); 
 }
 img.chef-image {
     width: 80%;

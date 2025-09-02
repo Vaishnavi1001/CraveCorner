@@ -1,6 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif !important;
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -11,7 +11,7 @@ body {
     --primary-color-red: #C32F27;
 }
 
-.container{
+.container {
     max-width: 1280px;
     margin: auto 0;
 }
@@ -19,53 +19,66 @@ body {
 /* header starts */
 
 header {
-     background: linear-gradient(45deg, black, transparent);
+    background: linear-gradient(45deg, black, transparent);
     top: 0;
     right: 0;
     left: 0;
     padding-top: 12px;
     position: fixed;
 }
+
 .container-fluid {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+
 a.navbar-brand {
     font-size: 35px;
     font-weight: 600;
 }
+
 a.navbar-brand:hover,
 a.nav-link:hover {
     color: var(--primary-color-red) !important;
+    font-family: cursive;
+    transition: all 0.5s ease-in;
 }
+
 a.navbar-brand,
 a.nav-link {
     color: white !important;
 }
+
 a.nav-link.active {
     color: var(--primary-color-red) !important;
 }
+
 div#navbarSupportedContent {
     justify-content: center;
     gap: 2rem;
 }
+
 ul.navbar-nav {
     gap: 2rem;
 }
+
 .nav-links {
     display: flex;
     gap: 1rem;
     margin: 0;
 }
+
 .orders {
     display: flex;
 }
+
 li.nav-icons {
     list-style: none;
     display: flex;
     align-items: center;
     color: white;
 }
+
 button.order-btn {
     padding: 14px 37px;
     border-radius: 20px;
@@ -73,22 +86,23 @@ button.order-btn {
     color: white;
     border: none;
 }
-button.order-btn:hover{
-    background:transparent;
+
+button.order-btn:hover {
+    background: transparent;
     color: var(--primary-color-red);
-    border:1px solid var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
+
 /* header ends */
 
 /* main starts */
 
 /* home section starts */
 .hero-sec {
-    background-image:url(../images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     background-size: cover;
     background-position: center;
-    /* height: 100vh; */
 }
 
 button.hero-btn {
@@ -98,24 +112,29 @@ button.hero-btn {
     color: white;
     border: none;
 }
-button.hero-btn:hover{
-    background:transparent;
+
+button.hero-btn:hover {
+    background: transparent;
     color: var(--primary-color-red);
-    border:1px solid var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
+
 p.hero-para {
     color: white;
     padding-right: 30%;
 }
+
 h2.hero-heading {
     color: white;
     margin-bottom: 5%;
 }
+
 section.hero-sec {
     padding-block-start: 15%;
     padding-block-end: 12%;
 }
+
 /* home section ends */
 
 
@@ -124,46 +143,79 @@ section#about {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.about-heading{
+
+.about-heading {
     text-align: center;
     margin-bottom: 4%;
     font-size: 45px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 44px;
 }
+
 .col-md-4.about-images {
     padding: 0;
 }
+
 .col-md-4.about-timings {
     background-color: var(--primary-color-darkred);
     color: white;
     padding: 2%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
+
 img.about-image {
     width: 100%;
 }
+
 .col-md-4.about-restaurant {
     background-color: white;
     text-align: center;
     padding: 2%;
     color: black;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
-h2.about-title,h2.about-time-title {
+
+h2.about-title,
+h2.about-time-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
-p.about-para,p.time-para {
+
+p.about-para,
+p.time-para {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
 }
+
 p.time-para {
     border-bottom: 1px solid;
-        display: flex;
+    display: flex;
     justify-content: space-between;
 }
+
+.about-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p.about-para2 {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+p.about-para2:hover {
+    color: var(--primary-color-darkred);
+}
+
 button.about-btn {
     width: 30%;
     margin-top: 3%;
@@ -175,45 +227,55 @@ button.about-btn {
     color: white;
     border-radius: 10px;
 }
-button.about-btn:hover{
-background:transparent;
+
+button.about-btn:hover {
+    background: transparent;
     color: var(--primary-color-red);
-    border:1px solid var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
+
 /* about section ends */
 
 
 /* menu section starts */
-section.menu{
+section.menu {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 h2.menu-heading {
     text-align: center;
     margin-bottom: 4%;
     font-size: 45px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 44px;
 }
+
 .menu.head {
     text-align: center;
 }
+
 ul#pills-tab {
     display: flex;
     justify-content: center;
 }
-button.nav-link.active, .nav-pills .show.nav-link {
+
+button.nav-link.active,
+.nav-pills .show.nav-link {
     background-color: var(--primary-color-darkred) !important;
     color: white !important;
 }
+
 .nav-link {
     color: black !important;
 }
+
 button.nav-link:hover {
     background-color: var(--primary-color-darkred);
     color: white !important;
 }
+
 /* starters,lunch,breakfast,dinner */
 .starter-items,
 .lunch-items,
@@ -225,6 +287,7 @@ button.nav-link:hover {
     margin-top: 3%;
 
 }
+
 .starter-card,
 .lunch-card,
 .breakfast-card,
@@ -233,20 +296,35 @@ button.nav-link:hover {
     border: 1px solid lightgrey;
     border-radius: 12px;
 }
+
 .starter-imgs,
 .lunch-imgs,
 .breakfast-imgs,
 .dinner-imgs {
     width: 100%;
 }
+
 img.starter-img,
 img.lunch-img,
 img.breakfast-img,
 img.dinner-img {
     width: 100%;
     border-radius: 12px;
+    transition: all 0.5s ease;
 }
-.starters-intro, .lunch-intro, .breakfast-intro, .dinner-intro {
+
+.starter-card:hover,
+.lunch-card:hover,
+.breakfast-card:hover,
+.dinner-card:hover {
+    opacity: 0.8;
+    transform: scale(1.04);
+}
+
+.starters-intro,
+.lunch-intro,
+.breakfast-intro,
+.dinner-intro {
     margin-left: 2%;
     margin-top: 6%;
     margin-right: 2%;
@@ -256,11 +334,12 @@ img.dinner-img {
 h4.starters-card-heading,
 h4.lunch-card-heading,
 h4.breakfast-card-heading,
-h4.dinner-card-heading{
+h4.dinner-card-heading {
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
 }
+
 p.starters-card-para,
 p.lunch-card-para,
 p.breakfast-card-para,
@@ -268,10 +347,11 @@ p.dinner-card-para {
     font-size: 16px;
     font-weight: 400;
 }
+
 p.starters-card-para1,
-p.lunch-card-para1 ,
-p.breakfast-card-para1 ,
-p.dinner-card-para1  {
+p.lunch-card-para1,
+p.breakfast-card-para1,
+p.dinner-card-para1 {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -295,10 +375,10 @@ button.dinner-order-btn {
 button.starters-order-btn:hover,
 button.lunch-order-btn:hover,
 button.breakfast-order-btn:hover,
-button.dinner-order-btn:hover{
-background:transparent;
+button.dinner-order-btn:hover {
+    background: transparent;
     color: var(--primary-color-red);
-    border:1px solid var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
 /* menu section ends */
@@ -314,7 +394,7 @@ h2.gallery-heading {
     margin-bottom: 4%;
     font-size: 45px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 44px;
 }
 .gallery-items {
     display: flex;
@@ -326,8 +406,14 @@ h2.gallery-heading {
     width: 30%;
 }
 
+.gallery-images:hover img {
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
 img.gallery-img {
     width: 100%;
+    transition: all 0.5s ease;
 }
 
 
@@ -339,22 +425,36 @@ section.popular-items {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 h2.popular-heading {
     text-align: center;
     margin-bottom: 4%;
     font-size: 45px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 44px;
 }
+
 h5.card-title {
     font-size: 15px;
     font-weight: 800;
 }
+
 p.card-rate {
     font-size: 12px;
     font-weight: 800;
     line-height: 1px;
 }
+
+.popular-img img {
+    transition: all 0.5s ease;
+}
+
+.popular-img:hover img {
+    opacity: 0.8;
+    transform: scale(1.06);
+    border-radius: 50%;
+}
+
 button.popular-order-btn {
     background-color: var(--primary-color-darkred);
     color: white;
@@ -363,12 +463,14 @@ button.popular-order-btn {
     width: 100%;
     padding: 5%;
 }
-button.popular-order-btn:hover{
-background:transparent;
+
+button.popular-order-btn:hover {
+    background: transparent;
     color: var(--primary-color-red);
-    border:1px solid var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
+
 /* popular-items section end */
 
 
@@ -378,13 +480,15 @@ section.master-chef {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 h2.master-heading {
     text-align: center;
     margin-bottom: 4%;
     font-size: 45px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 44px;
 }
+
 .chef-card {
     background-color: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
@@ -392,23 +496,32 @@ h2.master-heading {
     padding: 7%;
     text-align: center;
 }
-.chef-images:hover img {
-  transform: scale(1.1); 
-}
-img.chef-image {
+
+.chef-images img {
     width: 80%;
     border-radius: 50%;
+    transition: all 0.5s ease;
 }
+
+.chef-images:hover img {
+    opacity: .6;
+    transform: scale(1.06) rotate(2deg);
+
+}
+
 .chef-intro {
     margin-top: 6%;
 }
+
 h4.chef-card-heading {
     font-size: 20px;
     font-weight: 600;
 }
+
 a.chef-social-link {
     color: black;
 }
+
 /* master-chef section ends */
 
 
@@ -417,27 +530,35 @@ section.reserve-table {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 h2.reserve-heading {
     text-align: center;
     margin-bottom: 4%;
     font-size: 45px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 44px;
 }
-input#name,input#email,input#phone,select#person,input#date,input#time {
+
+input#name,
+input#email,
+input#phone,
+select#person,
+input#date,
+input#time {
     width: 100%;
     padding: 10px;
     border: 1px solid lightgray;
 }
+
 .form-group {
     margin-bottom: 3%;
 }
+
 .form-group label {
     font-size: 15px;
     font-weight: 500;
     line-height: 25px;
 }
-
 
 button.book-btn {
     width: 30%;
@@ -450,13 +571,53 @@ button.book-btn {
     color: white;
     border-radius: 10px;
 }
+
 button.book-btn:hover {
     color: var(--primary-color-red);
     background: none;
     border: 1px solid var(--primary-color-red);
 }
+
 /* reserve-table section ends */
 
+
+/* our services section starts */
+section.service {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h2.service-title {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+h2.service-heading {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+p.service-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.col-md-3.service-intro {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+img.service-img {
+    width: 100%;
+}
+
+/* our services section ends */
 
 
 /* footer */
@@ -522,5 +683,3 @@ p.footer-end {
     font-size: 25px;
     font-weight: 500;
 }
-
-

@@ -18,12 +18,12 @@ body {
 /* header starts */
 
 header {
-    background: transparent;
+     background: linear-gradient(45deg, black, transparent);
     top: 0;
     right: 0;
     left: 0;
-    position: absolute;
     padding-top: 12px;
+    position: fixed;
 }
 .container-fluid {
     padding-right: 0 !important;
@@ -35,40 +35,36 @@ a.navbar-brand {
 }
 a.navbar-brand:hover,
 a.nav-link:hover {
-    color: var(--primary-color-darkorange) !important;
+    color: var(--primary-color-red) !important;
 }
 a.navbar-brand,
 a.nav-link {
     color: white !important;
 }
-
+a.nav-link.active {
+    color: var(--primary-color-red) !important;
+}
 div#navbarSupportedContent {
     justify-content: center;
     gap: 2rem;
 }
-
 ul.navbar-nav {
     gap: 2rem;
 }
-
 .nav-links {
     display: flex;
     gap: 1rem;
     margin: 0;
 }
-
 .orders {
     display: flex;
-
 }
-
 li.nav-icons {
     list-style: none;
     display: flex;
     align-items: center;
     color: white;
 }
-
 button.order-btn {
     padding: 14px 37px;
     border-radius: 20px;
@@ -82,11 +78,11 @@ button.order-btn:hover{
     border:1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
-
 /* header ends */
 
 /* main starts */
 
+/* home section starts */
 .hero-sec {
     background-image:url(../images/hero-bg.png);
     background-size: cover;
@@ -119,86 +115,53 @@ section.hero-sec {
     padding-block-start: 15%;
     padding-block-end: 12%;
 }
+/* home section ends */
 
-/* popular-items section start */
 
-section.popular-items {
-    margin-top: 5%;
-    margin-bottom: 5%;
+/* about section starts */
+section#about {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-h2.popular-heading {
-    text-align: center;
-    margin-bottom: 4%;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 20px;
+.col-md-4.about-images {
+    padding: 0;
 }
-h5.card-title {
-    font-size: 15px;
-    font-weight: 800;
-}
-p.card-rate {
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 1px;
-}
-button.popular-order-btn {
+.col-md-4.about-timings {
     background-color: var(--primary-color-darkred);
     color: white;
-    border: none;
-    border-radius: 15px;
+    padding: 2%;
+}
+img.about-image {
     width: 100%;
-    padding: 5%;
 }
-button.popular-order-btn:hover{
-background:transparent;
-    color: var(--primary-color-red);
-    border:1px solid var(--primary-color-red);
-    transition: 0.3s ease-in;
-}
-/* popular-items section end */
-
-
-/* master-chef section starts */
-section.master-chef {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-h2.master-heading {
-    text-align: center;
-    margin-bottom: 4%;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 20px;
-}
-.chef-card {
+.col-md-4.about-restaurant {
     background-color: white;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 7%;
     text-align: center;
-}
-img.chef-image {
-    width: 80%;
-    border-radius: 50%;
-}
-.chef-intro {
-    margin-top: 6%;
-}
-h4.chef-card-heading {
-    font-size: 20px;
-    font-weight: 600;
-}
-a.chef-social-link {
+    padding: 2%;
     color: black;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
-/* master-chef section ends */
+h2.about-title,h2.about-time-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+p.about-para,p.time-para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+p.time-para {
+    border-bottom: 1px solid;
+}
+
+/* about section ends */
 
 
 /* menu section starts */
 section.menu{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 h2.menu-heading {
     text-align: center;
@@ -317,8 +280,8 @@ background:transparent;
 
 /* restaurant-gallery-section starts */
 section.gallery {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 h2.gallery-heading {
     text-align: center;
@@ -344,8 +307,94 @@ img.gallery-img {
 
 /* restaurant-gallery-section ends */
 
+/* popular-items section start */
+
+section.popular-items {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2.popular-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
+h5.card-title {
+    font-size: 15px;
+    font-weight: 800;
+}
+p.card-rate {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1px;
+}
+button.popular-order-btn {
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5%;
+}
+button.popular-order-btn:hover{
+background:transparent;
+    color: var(--primary-color-red);
+    border:1px solid var(--primary-color-red);
+    transition: 0.3s ease-in;
+}
+/* popular-items section end */
+
+
+
+/* master-chef section starts */
+section.master-chef {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2.master-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.chef-card {
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 7%;
+    text-align: center;
+}
+img.chef-image {
+    width: 80%;
+    border-radius: 50%;
+}
+.chef-intro {
+    margin-top: 6%;
+}
+h4.chef-card-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+a.chef-social-link {
+    color: black;
+}
+/* master-chef section ends */
+
 
 /* reserve-table section starts */
+section.reserve-table {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2.reserve-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 20px;
+}
 input#name,input#email,input#phone,select#person,input#date,input#time {
     width: 100%;
     padding: 10px;
@@ -354,7 +403,11 @@ input#name,input#email,input#phone,select#person,input#date,input#time {
 .form-group {
     margin-bottom: 3%;
 }
-
+.form-group label {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
 
 
 button.book-btn {

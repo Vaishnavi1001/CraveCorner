@@ -49,16 +49,14 @@ a.nav-link.active {
 
 div#navbarSupportedContent {
     justify-content: center;
-    gap: 2rem;
 }
 
 ul.navbar-nav {
-    gap: 2rem;
+    gap: 50px;
 }
-
 .nav-links {
     display: flex;
-    gap: 1rem;
+    gap: 15px;
     margin: 0;
 }
 
@@ -529,6 +527,9 @@ h2.reserve-heading {
     font-weight: 700;
     line-height: 44px;
 }
+img.reserve-image {
+    width: 100%;
+}
 
 input#name,
 input#email,
@@ -542,7 +543,7 @@ input#time {
 }
 
 .form-group {
-    margin-bottom: 3%;
+    margin-bottom: 4%;
 }
 
 .form-group label {

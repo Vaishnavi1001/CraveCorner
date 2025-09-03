@@ -1,0 +1,59 @@
+@media (max-width:1280px) {
+
+    /* about section */
+    h2.about-title,
+    h2.about-time-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 1%;
+    }
+
+    p.about-para,
+    p.time-para {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+
+    /* menu section */
+    .starter-items,
+    .lunch-items,
+    .breakfast-items,
+    .dinner-items {
+        gap: 59px;
+    }
+
+    h4.starters-card-heading,
+    h4.lunch-card-heading,
+    h4.breakfast-card-heading,
+    h4.dinner-card-heading {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    p.starters-card-para,
+    p.lunch-card-para,
+    p.breakfast-card-para,
+    p.dinner-card-para {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+    /* popular-item section */
+    h5.card-title {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    p.card-text {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+
+
+}

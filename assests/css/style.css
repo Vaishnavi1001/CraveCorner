@@ -2,7 +2,6 @@ body {
     font-family: "Montserrat", sans-serif !important;
     scroll-behavior: smooth;
 }
-
 :root {
     --primary-color-darkred: #780116;
     --primary-color-yellow: #F7B538;
@@ -10,14 +9,11 @@ body {
     --primary-color-darkorange: #D8572A;
     --primary-color-red: #C32F27;
 }
-
 .container {
     max-width: 1280px;
     margin: auto 0;
 }
-
 /* header starts */
-
 header {
     background: linear-gradient(45deg, black, transparent);
     top: 0;
@@ -26,8 +22,7 @@ header {
     padding-top: 12px;
     position: fixed;
 }
-
-.container-fluid {
+.container-fluid {  
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
@@ -41,7 +36,6 @@ a.navbar-brand:hover,
 a.nav-link:hover {
     color: var(--primary-color-red) !important;
     font-family: cursive;
-    transition: all 0.5s ease-in;
 }
 
 a.navbar-brand,
@@ -217,7 +211,7 @@ p.about-para2:hover {
 }
 
 button.about-btn {
-    width: 30%;
+    width: 33%;
     margin-top: 3%;
     padding: 10px;
     font-size: 15px;
@@ -325,10 +319,7 @@ img.dinner-img {
 .lunch-intro,
 .breakfast-intro,
 .dinner-intro {
-    margin-left: 2%;
-    margin-top: 6%;
-    margin-right: 2%;
-    margin-bottom: 10%;
+    margin: 2%;
 }
 
 h4.starters-card-heading,

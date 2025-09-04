@@ -539,3 +539,100 @@
         font-weight: 400;
     }
 }
+
+@media (max-width:375px){
+    /* home section */
+            p.hero-para {
+        line-height: 19px;
+        padding-right: 26%;
+        font-size: 13px;
+    }   
+    /* about section */
+     .about-heading {
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+    .col-md-4.about-images, .col-md-4.about-timings {
+        width: 100%;
+    }
+    .row.about-info {
+    width: 100%;
+    margin: 0;
+}
+/* menu section*/
+h2.menu-heading {
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 27px;
+}
+.starter-items {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.starter-card, .lunch-card, .breakfast-card, .dinner-card {
+    width: 100%;
+}
+.starter-items, .lunch-items, .breakfast-items, .dinner-items {
+        gap: 20px;
+    }
+    ul#pills-tab {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+/* gallery */
+h2.gallery-heading {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 27px;
+}
+.gallery-items {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.gallery-images {
+        width: 100%;
+    }
+    /* popular-items */
+    h2.popular-heading {
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 27px;
+}
+.item {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+    h5.card-title {
+        font-size: 20px;
+        font-weight: 800;
+    }
+        p.card-text {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    p.card-rate {
+    font-size: 17px;
+    font-weight: 800;
+}
+/* master chef */
+h2.master-heading {
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 27px;
+}
+.row.master-head {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 20px;
+}
+/* contact section */
+
+h2.reserve-heading {
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 27px;
+}
+}

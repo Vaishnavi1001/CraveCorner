@@ -45,12 +45,12 @@
 
     /* popular-item section */
     h5.card-title {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 700;
     }
 
     p.card-text {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 500;
     }
 
@@ -68,8 +68,12 @@
 
     p.service-para {
         font-size: 13px;
-        font-weight: 400;
-        line-height: 24px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .intro-service {
+        gap: 3px;
     }
 }
 
@@ -87,5 +91,451 @@
 
     button.order-btn {
         padding: 14px;
+    }
+
+    /* home section */
+    p.hero-para {
+        padding-right: 22%;
+    }
+
+    /* about section */
+    .about-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    h2.about-title,
+    h2.about-time-title {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+
+    p.about-para,
+    p.time-para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    p.about-para2 {
+        gap: 4px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    button.about-btn {
+        width: 41%;
+        padding: 14px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /* menu section */
+    h2.menu-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    .starter-card,
+    .lunch-card,
+    .breakfast-card,
+    .dinner-card {
+        width: 29%;
+    }
+
+    p.starters-card-para,
+    p.lunch-card-para,
+    p.breakfast-card-para,
+    p.dinner-card-para {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    /* gallery section */
+    .gallery-images {
+        width: 29%;
+    }
+
+    h2.gallery-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    /* popular-items section */
+    h5.card-title {
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    p.card-text {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    h2.popular-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+
+    /* chef section */
+    h2.master-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    /* contact section */
+    input#name,
+    input#email,
+    input#phone,
+    select#person,
+    input#date,
+    input#time {
+        padding: 4px;
+    }
+
+    h2.reserve-heading {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    /* service section */
+    h2.service-title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    h2.service-heading {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    p.service-para {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
+    /* footer */
+    h4.footer-heading {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    p.footer-para1 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .opening-time {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width:991px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 850px !important;
+    }
+
+    /* /header */
+    header {
+        position: relative;
+        background: linear-gradient(80deg, black, transparent);
+    }
+
+    .navbar-collapse {
+        display: flex;
+    }
+
+    /* home */
+    .hero-sec {
+        padding-block-start: 5%;
+        padding-block-end: 5%;
+    }
+
+    p.hero-para {
+        padding-right: 15%;
+    }
+
+    /* about section */
+    .row.about-info {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        width: 90%;
+        display: flex;
+        margin: 40px;
+    }
+
+    .col-md-4.about-restaurant {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .col-md-4.about-timings {
+        width: 50%;
+        border-radius: 0;
+    }
+
+    .col-md-4.about-images {
+        width: 50%;
+    }
+
+    h2.about-title,
+    h2.about-time-title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    p.about-para,
+    p.time-para {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    /* our menu section */
+    .starter-items,
+    .lunch-items,
+    .breakfast-items,
+    .dinner-items {
+        gap: 66px;
+    }
+
+    .starter-card,
+    .lunch-card,
+    .breakfast-card,
+    .dinner-card {
+        width: 28%;
+    }
+
+    h4.starters-card-heading,
+    h4.lunch-card-heading,
+    h4.breakfast-card-heading,
+    h4.dinner-card-heading {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    p.starters-card-para,
+    p.lunch-card-para,
+    p.breakfast-card-para,
+    p.dinner-card-para {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    /* gallery */
+    .gallery-images {
+        width: 28%;
+    }
+
+    /* popular items section */
+    h5.card-title {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    p.card-text {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    /* contact section */
+    img.reserve-image {
+        width: 100%;
+        height: 70vh;
+    }
+
+    /* services section */
+    h2.service-heading {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+
+    p.service-para {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .service-head {
+        color: var(--primary-color-darkred);
+    }
+
+    .service-head1 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .intro-service {
+        width: 83%;
+        position: absolute;
+        gap: 66px;
+        padding: 8px;
+    }
+
+    .service-intro {
+        display: flex;
+        flex-direction: column;
+        width: 46%;
+    }
+
+    img.service-img {
+        opacity: 0.4;
+        width: 100%;
+        height: 100vh;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    /* home-section */
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px !important;
+    }
+
+    .hero-sec {
+        background-position: left;
+    }
+
+    h2.hero-heading {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    p.hero-para {
+        line-height: 22px;
+        padding-right: 12%;
+        font-size: 15px;
+    }
+
+    /* about section */
+    img.about-image {
+        width: 100%;
+        height: 84vh;
+    }
+
+    /* menu section */
+    .starter-items,
+    .lunch-items,
+    .breakfast-items,
+    .dinner-items {
+        gap: 95px;
+    }
+
+    .starter-card,
+    .lunch-card,
+    .breakfast-card,
+    .dinner-card {
+        width: 43%;
+    }
+
+    .starter-card,
+    .lunch-card,
+    .breakfast-card,
+    .dinner-card {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+        opacity: 0;
+        /* hidden by default */
+        transition: opacity 0.4s ease;
+        background-color: rgba(120, 1, 22, 0.5);
+        /* transparent red overlay */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .starter-card:hover .overlay,
+    .lunch-card:hover .overlay,
+    .breakfast-card:hover .overlay,
+    .dinner-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .starters-intro,
+    .lunch-intro,
+    .breakfast-intro,
+    .dinner-intro {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button.starters-order-btn:hover,
+    button.lunch-order-btn:hover,
+    button.breakfast-order-btn:hover,
+    button.dinner-order-btn:hover {
+        border: 1px solid white;
+        color: white;
+    }
+
+    /* popular-items section */
+
+    h5.card-title {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* reserve table */
+
+
+    button.book-btn {
+        width: 34%;
+    }
+
+    /* services section */
+    .intro-service {
+        width: 91%;
+    }
+
+    img.service-img {
+        opacity: 0.4;
+        width: 100%;
+        height: 478px;
+    }
+
+    /* footer */
+    a.footer-info {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
     }
 }

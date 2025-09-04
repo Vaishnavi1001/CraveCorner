@@ -92,6 +92,8 @@ button.order-btn:hover {
 
 /* home section starts */
 .hero-sec {
+    padding-block-start: 15%;
+    padding-block-end: 12%;
     background-image: url(../images/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -122,10 +124,6 @@ h2.hero-heading {
     margin-bottom: 5%;
 }
 
-section.hero-sec {
-    padding-block-start: 15%;
-    padding-block-end: 12%;
-}
 
 /* home section ends */
 
@@ -133,7 +131,6 @@ section.hero-sec {
 /* about section starts */
 section#about {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 .about-heading {
@@ -233,7 +230,6 @@ button.about-btn:hover {
 /* menu section starts */
 section.menu {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 h2.menu-heading {
@@ -376,7 +372,6 @@ button.dinner-order-btn:hover {
 /* restaurant-gallery-section starts */
 section.gallery {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 h2.gallery-heading {
     text-align: center;
@@ -412,7 +407,6 @@ img.gallery-img {
 
 section.popular-items {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 h2.popular-heading {
@@ -424,7 +418,7 @@ h2.popular-heading {
 }
 
 h5.card-title {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 800;
 }
 
@@ -433,7 +427,11 @@ p.card-rate {
     font-weight: 800;
     line-height: 1px;
 }
-
+p.card-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
 .popular-img img {
     transition: all 0.5s ease;
 }
@@ -467,7 +465,6 @@ button.popular-order-btn:hover {
 /* master-chef section starts */
 section.master-chef {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 h2.master-heading {
@@ -517,7 +514,6 @@ a.chef-social-link {
 /* reserve-table section starts */
 section.reserve-table {
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 h2.reserve-heading {
@@ -592,17 +588,17 @@ h2.service-heading {
     font-weight: 600;
     line-height: 40px;
 }
-
+.intro-service {
+    display: flex;
+}
 p.service-para {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-
-.col-md-3.service-intro {
+.service-head1 {
     display: flex;
     gap: 20px;
-    flex-direction: column;
 }
 
 img.service-img {

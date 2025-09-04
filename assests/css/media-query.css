@@ -540,99 +540,172 @@
     }
 }
 
-@media (max-width:375px){
+@media (max-width:375px) {
+
     /* home section */
-            p.hero-para {
+    p.hero-para {
         line-height: 19px;
         padding-right: 26%;
         font-size: 13px;
-    }   
+    }
+
     /* about section */
-     .about-heading {
+    .about-heading {
         font-size: 29px;
         font-weight: 800;
         line-height: 27px;
     }
-    .col-md-4.about-images, .col-md-4.about-timings {
+
+    .col-md-4.about-images,
+    .col-md-4.about-timings {
         width: 100%;
     }
+
     .row.about-info {
-    width: 100%;
-    margin: 0;
-}
-/* menu section*/
-h2.menu-heading {
-    font-size: 29px;
-    font-weight: 800;
-    line-height: 27px;
-}
-.starter-items {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.starter-card, .lunch-card, .breakfast-card, .dinner-card {
-    width: 100%;
-}
-.starter-items, .lunch-items, .breakfast-items, .dinner-items {
+        width: 93%;
+        margin: 4%;
+    }
+
+    img.about-image {
+        width: 100%;
+        height: 70vh;
+    }
+
+    /* menu section*/
+    h2.menu-heading {
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+
+    .starter-card,
+    .lunch-card,
+    .breakfast-card,
+    .dinner-card {
+        width: 100%;
+    }
+
+    .starter-items,
+    .lunch-items,
+    .breakfast-items,
+    .dinner-items {
+        margin-left: 4%;
+        margin-right: 4%;
         gap: 20px;
     }
+
     ul#pills-tab {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-}
-/* gallery */
-h2.gallery-heading {
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 27px;
-}
-.gallery-items {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.gallery-images {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    /* gallery */
+    h2.gallery-heading {
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+
+    .gallery-items {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .gallery-images {
         width: 100%;
     }
+
     /* popular-items */
     h2.popular-heading {
-    font-size: 29px;
-    font-weight: 800;
-    line-height: 27px;
-}
-.item {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-}
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+
+    .item {
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
     h5.card-title {
         font-size: 20px;
         font-weight: 800;
     }
-        p.card-text {
+
+    p.card-text {
         font-size: 13px;
         font-weight: 500;
     }
-    p.card-rate {
-    font-size: 17px;
-    font-weight: 800;
-}
-/* master chef */
-h2.master-heading {
-    font-size: 29px;
-    font-weight: 800;
-    line-height: 27px;
-}
-.row.master-head {
-    margin-left: 10%;
-    margin-right: 10%;
-    gap: 20px;
-}
-/* contact section */
 
-h2.reserve-heading {
+    p.card-rate {
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    /* master chef */
+    h2.master-heading {
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+
+    .row.master-head {
+        margin-left: 4%;
+        margin-right: 4%;
+        gap: 20px;
+    }
+
+    /* contact section */
+
+    h2.reserve-heading {
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 27px;
+    }
+
+    .row.reserve-content {
+        margin-left: 4%;
+        margin-right: 4%;
+        gap: 20px;
+    }
+        img.reserve-image {
+        width: 100%;
+        height: 62vh;
+    }
+        button.book-btn{
+        width: 50%;
+    }
+    /* service section */
+h2.service-title {
     font-size: 29px;
     font-weight: 800;
     line-height: 27px;
 }
+    img.service-img {
+        opacity: 0.2;
+        width: 100%;
+        height: 424px;
+    }
+.intro-service {
+        width: 93%;
+        gap: 27px;
+        padding: 5px;
+    }
+    h2.service-heading {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+        p.service-para {
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+    /* footer */
+    p.footer-end {
+    font-size: 23px;
+    font-weight: 500;
+}
+
 }

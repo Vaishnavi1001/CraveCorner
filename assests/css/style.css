@@ -13,6 +13,7 @@ body {
     max-width: 1280px;
     margin: auto 0;
 }
+
 /* header starts */
 header {
     background: linear-gradient(45deg, black, transparent);
@@ -22,35 +23,29 @@ header {
     padding-top: 12px;
     position: fixed;
 }
-.container-fluid {  
+.container-fluid {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
-
 a.navbar-brand {
     font-size: 35px;
     font-weight: 600;
 }
-
 a.navbar-brand:hover,
 a.nav-link:hover {
     color: var(--primary-color-red) !important;
     font-family: cursive;
 }
-
 a.navbar-brand,
 a.nav-link {
     color: white !important;
 }
-
 a.nav-link.active {
     color: var(--primary-color-red) !important;
 }
-
 div#navbarSupportedContent {
     justify-content: center;
 }
-
 ul.navbar-nav {
     gap: 50px;
 }
@@ -59,18 +54,15 @@ ul.navbar-nav {
     gap: 15px;
     margin: 0;
 }
-
 .orders {
     display: flex;
 }
-
 li.nav-icons {
     list-style: none;
     display: flex;
     align-items: center;
     color: white;
 }
-
 button.order-btn {
     padding: 14px 37px;
     border-radius: 20px;
@@ -78,18 +70,16 @@ button.order-btn {
     color: white;
     border: none;
 }
-
 button.order-btn:hover {
     background: transparent;
     color: var(--primary-color-red);
     border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
-
 /* header ends */
 
-/* main starts */
 
+/* main starts */
 /* home section starts */
 .hero-sec {
     padding-block-start: 15%;
@@ -98,7 +88,6 @@ button.order-btn:hover {
     background-size: cover;
     background-position: center;
 }
-
 button.hero-btn {
     padding: 14px 37px;
     border-radius: 20px;
@@ -106,25 +95,20 @@ button.hero-btn {
     color: white;
     border: none;
 }
-
 button.hero-btn:hover {
     background: transparent;
     color: var(--primary-color-red);
     border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
-
 p.hero-para {
     color: white;
     padding-right: 30%;
 }
-
 h2.hero-heading {
     color: white;
     margin-bottom: 5%;
 }
-
-
 /* home section ends */
 
 
@@ -132,7 +116,6 @@ h2.hero-heading {
 section#about {
     padding-top: 5%;
 }
-
 .about-heading {
     text-align: center;
     margin-bottom: 4%;
@@ -140,11 +123,9 @@ section#about {
     font-weight: 700;
     line-height: 44px;
 }
-
 .col-md-4.about-images {
     padding: 0;
 }
-
 .col-md-4.about-timings {
     background-color: var(--primary-color-darkred);
     color: white;
@@ -152,11 +133,9 @@ section#about {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
-
 img.about-image {
     width: 100%;
 }
-
 .col-md-4.about-restaurant {
     background-color: white;
     text-align: center;
@@ -166,32 +145,27 @@ img.about-image {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
-
 h2.about-title,
 h2.about-time-title {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
-
 p.about-para,
 p.time-para {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
 }
-
 p.time-para {
     border-bottom: 1px solid;
     display: flex;
     justify-content: space-between;
 }
-
 .about-icons {
     display: flex;
     justify-content: space-evenly;
 }
-
 p.about-para2 {
     display: flex;
     gap: 9px;
@@ -200,11 +174,9 @@ p.about-para2 {
     font-weight: 500;
     line-height: 30px;
 }
-
 p.about-para2:hover {
     color: var(--primary-color-darkred);
 }
-
 button.about-btn {
     width: 33%;
     margin-top: 3%;
@@ -216,14 +188,12 @@ button.about-btn {
     color: white;
     border-radius: 10px;
 }
-
 button.about-btn:hover {
     background: transparent;
     color: var(--primary-color-red);
     border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
-
 /* about section ends */
 
 
@@ -231,7 +201,6 @@ button.about-btn:hover {
 section.menu {
     padding-top: 5%;
 }
-
 h2.menu-heading {
     text-align: center;
     margin-bottom: 4%;
@@ -239,31 +208,25 @@ h2.menu-heading {
     font-weight: 700;
     line-height: 44px;
 }
-
 .menu.head {
     text-align: center;
 }
-
 ul#pills-tab {
     display: flex;
     justify-content: center;
 }
-
 button.nav-link.active,
 .nav-pills .show.nav-link {
     background-color: var(--primary-color-darkred) !important;
     color: white !important;
 }
-
 .nav-link {
     color: black !important;
 }
-
 button.nav-link:hover {
     background-color: var(--primary-color-darkred);
     color: white !important;
 }
-
 /* starters,lunch,breakfast,dinner */
 .starter-items,
 .lunch-items,
@@ -275,7 +238,6 @@ button.nav-link:hover {
     margin-top: 3%;
 
 }
-
 .starter-card,
 .lunch-card,
 .breakfast-card,
@@ -284,14 +246,12 @@ button.nav-link:hover {
     border: 1px solid lightgrey;
     border-radius: 12px;
 }
-
 .starter-imgs,
 .lunch-imgs,
 .breakfast-imgs,
 .dinner-imgs {
     width: 100%;
 }
-
 img.starter-img,
 img.lunch-img,
 img.breakfast-img,
@@ -300,7 +260,6 @@ img.dinner-img {
     border-radius: 12px;
     transition: all 0.5s ease;
 }
-
 .starter-card:hover,
 .lunch-card:hover,
 .breakfast-card:hover,
@@ -308,14 +267,12 @@ img.dinner-img {
     opacity: 0.8;
     transform: scale(1.04);
 }
-
 .starters-intro,
 .lunch-intro,
 .breakfast-intro,
 .dinner-intro {
     margin: 2%;
 }
-
 h4.starters-card-heading,
 h4.lunch-card-heading,
 h4.breakfast-card-heading,
@@ -324,7 +281,6 @@ h4.dinner-card-heading {
     font-weight: 700;
     line-height: 20px;
 }
-
 p.starters-card-para,
 p.lunch-card-para,
 p.breakfast-card-para,
@@ -332,7 +288,6 @@ p.dinner-card-para {
     font-size: 16px;
     font-weight: 400;
 }
-
 p.starters-card-para1,
 p.lunch-card-para1,
 p.breakfast-card-para1,
@@ -385,16 +340,13 @@ h2.gallery-heading {
     flex-wrap: wrap;
     gap: 55px;
 }
-
 .gallery-images {
     width: 30%;
 }
-
 .gallery-images:hover img {
     opacity: 0.8;
     transform: scale(1.2);
 }
-
 img.gallery-img {
     width: 100%;
     transition: all 0.5s ease;
@@ -404,7 +356,6 @@ img.gallery-img {
 /* restaurant-gallery-section ends */
 
 /* popular-items section start */
-
 section.popular-items {
     padding-top: 5%;
 }
@@ -418,7 +369,7 @@ h2.popular-heading {
 }
 
 h5.card-title {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 800;
 }
 
@@ -427,11 +378,13 @@ p.card-rate {
     font-weight: 800;
     line-height: 1px;
 }
+
 p.card-text {
     font-size: 20px;
     font-weight: 500;
     line-height: 23px;
 }
+
 .popular-img img {
     transition: all 0.5s ease;
 }
@@ -523,6 +476,7 @@ h2.reserve-heading {
     font-weight: 700;
     line-height: 44px;
 }
+
 img.reserve-image {
     width: 100%;
 }
@@ -588,14 +542,17 @@ h2.service-heading {
     font-weight: 600;
     line-height: 40px;
 }
+
 .intro-service {
     display: flex;
 }
+
 p.service-para {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
+
 .service-head1 {
     display: flex;
     gap: 20px;

@@ -16,6 +16,9 @@ $(document).ready(function () {
             1000: {
                 items: 4
             },
+            1030:{
+                items: 5
+            },
         }
     });
     $('.play').on('click', function () {

@@ -717,9 +717,6 @@ section.reserve-table {
         font-weight: 600;
         line-height: 14px;
     }
-    img.service-img {
-        height: 393px;
-    }
 
 }
 
@@ -895,8 +892,8 @@ section.reserve-table {
 
     /* footer */
     p.footer-end {
-        font-size: 23px;
-        font-weight: 500;
-    }
+    font-size: 23px;
+    font-weight: 500;
+}
 
 }

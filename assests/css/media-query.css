@@ -45,13 +45,14 @@
 
     /* popular-item section */
     h5.card-title {
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 700;
     }
-
     p.card-text {
-        font-size: 12px;
+        margin-bottom: 5%;
+        font-size: 13px;
         font-weight: 500;
+        line-height: 15px;
     }
 
     /* reserve section */
@@ -407,6 +408,11 @@
 }
 
 @media (max-width:768px) {
+    /* header */
+    .nav-links {
+        gap: 43px;
+        padding-left: 2px;
+    }
 
     /* home-section */
     .container,
@@ -441,14 +447,14 @@
     .lunch-items,
     .breakfast-items,
     .dinner-items {
-        gap: 95px;
+        gap: 40px;
     }
 
     .starter-card,
     .lunch-card,
     .breakfast-card,
     .dinner-card {
-        width: 43%;
+        width: 29%;
     }
 
     .starter-card,
@@ -585,11 +591,8 @@
         padding-top: 14%;
     }
 
-    .starter-card,
-    .lunch-card,
-    .breakfast-card,
-    .dinner-card {
-        width: 100%;
+        .starter-card, .lunch-card, .breakfast-card, .dinner-card {
+        width: 48%;
     }
 
     .starter-items,
@@ -598,7 +601,19 @@
     .dinner-items {
         margin-left: 4%;
         margin-right: 4%;
-        gap: 20px;
+        gap: 14px;
+    }
+        h4.starters-card-heading, h4.lunch-card-heading, h4.breakfast-card-heading, h4.dinner-card-heading {
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 19px;
+        margin-bottom: 2%;
+    }
+        p.starters-card-para, p.lunch-card-para, p.breakfast-card-para, p.dinner-card-para {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+        margin-bottom: 4%;
     }
 
     /* gallery */
@@ -721,6 +736,10 @@ section.reserve-table {
 }
 
 @media (max-width:375px) {
+    /* header */
+    button.order-btn {
+    padding: 13px;
+}
 
     /* home section */
     p.hero-para {
@@ -765,15 +784,11 @@ section.reserve-table {
         width: 100%;
     }
 
-    .starter-items,
-    .lunch-items,
-    .breakfast-items,
-    .dinner-items {
+    .starter-items, .lunch-items, .breakfast-items, .dinner-items {
         margin-left: 4%;
         margin-right: 4%;
-        gap: 20px;
+        gap: 12px;
     }
-
     ul#pills-tab {
         font-size: 12px;
         font-weight: 700;

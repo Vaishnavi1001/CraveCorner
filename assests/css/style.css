@@ -342,6 +342,7 @@ h2.gallery-heading {
 }
 .gallery-images {
     width: 30%;
+    overflow: hidden;
 }
 .gallery-images:hover img {
     opacity: 0.8;
@@ -359,7 +360,6 @@ img.gallery-img {
 section.popular-items {
     padding-top: 5%;
 }
-
 h2.popular-heading {
     text-align: center;
     margin-bottom: 4%;
@@ -367,34 +367,32 @@ h2.popular-heading {
     font-weight: 700;
     line-height: 44px;
 }
-
 h5.card-title {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 800;
+    line-height: 13px;
 }
-
 p.card-rate {
     font-size: 12px;
     font-weight: 800;
-    line-height: 1px;
+    line-height: 15px;
 }
-
 p.card-text {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 20px;
 }
-
+.popular-img {
+    overflow: hidden;
+}
 .popular-img img {
     transition: all 0.5s ease;
 }
-
 .popular-img:hover img {
     opacity: 0.8;
     transform: scale(1.06);
     border-radius: 50%;
 }
-
 button.popular-order-btn {
     background-color: var(--primary-color-darkred);
     color: white;
@@ -403,23 +401,19 @@ button.popular-order-btn {
     width: 100%;
     padding: 5%;
 }
-
 button.popular-order-btn:hover {
     background: transparent;
     color: var(--primary-color-red);
     border: 1px solid var(--primary-color-red);
     transition: 0.3s ease-in;
 }
-
 /* popular-items section end */
-
 
 
 /* master-chef section starts */
 section.master-chef {
     padding-top: 5%;
 }
-
 h2.master-heading {
     text-align: center;
     margin-bottom: 4%;
@@ -427,7 +421,6 @@ h2.master-heading {
     font-weight: 700;
     line-height: 44px;
 }
-
 .chef-card {
     background-color: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
@@ -435,32 +428,26 @@ h2.master-heading {
     padding: 7%;
     text-align: center;
 }
-
 .chef-images img {
     width: 80%;
     border-radius: 50%;
     transition: all 0.5s ease;
 }
-
 .chef-images:hover img {
     opacity: .6;
     transform: scale(1.06) rotate(2deg);
 
 }
-
 .chef-intro {
     margin-top: 6%;
 }
-
 h4.chef-card-heading {
     font-size: 20px;
     font-weight: 600;
 }
-
 a.chef-social-link {
     color: black;
 }
-
 /* master-chef section ends */
 
 
@@ -468,7 +455,6 @@ a.chef-social-link {
 section.reserve-table {
     padding-top: 5%;
 }
-
 h2.reserve-heading {
     text-align: center;
     margin-bottom: 4%;
@@ -476,11 +462,9 @@ h2.reserve-heading {
     font-weight: 700;
     line-height: 44px;
 }
-
 img.reserve-image {
     width: 100%;
 }
-
 input#name,
 input#email,
 input#phone,
@@ -491,17 +475,14 @@ input#time {
     padding: 10px;
     border: 1px solid lightgray;
 }
-
 .form-group {
     margin-bottom: 4%;
 }
-
 .form-group label {
     font-size: 15px;
     font-weight: 500;
     line-height: 25px;
 }
-
 button.book-btn {
     width: 30%;
     margin-top: 3%;
@@ -513,13 +494,11 @@ button.book-btn {
     color: white;
     border-radius: 10px;
 }
-
 button.book-btn:hover {
     color: var(--primary-color-red);
     background: none;
     border: 1px solid var(--primary-color-red);
 }
-
 /* reserve-table section ends */
 
 
@@ -528,7 +507,6 @@ section.service {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
 h2.service-title {
     text-align: center;
     margin-bottom: 4%;
@@ -536,32 +514,26 @@ h2.service-title {
     font-weight: 700;
     line-height: 44px;
 }
-
 h2.service-heading {
     font-size: 26px;
     font-weight: 600;
     line-height: 40px;
 }
-
 .intro-service {
     display: flex;
 }
-
 p.service-para {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-
 .service-head1 {
     display: flex;
-    gap: 20px;
+    gap:20px;
 }
-
 img.service-img {
     width: 100%;
 }
-
 /* our services section ends */
 
 
@@ -571,56 +543,45 @@ footer.footer {
     padding: 5%;
     color: white;
 }
-
 .footer-contact-info {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 li.footer-link {
     list-style: none;
 }
-
 a.footer-info {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 450;
 }
-
 h4.footer-heading {
     font-size: 28px;
     font-weight: 600;
 }
-
 .restaurant-info {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 p.footer-para1 {
     font-size: 16px;
     font-weight: 450;
 }
-
 .restaurant-time {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 .opening-time {
     font-size: 16px;
     font-weight: 450;
 }
-
-
 a.footer-social-links {
     color: white;
 }
-
 p.footer-end {
     display: flex;
     justify-content: center;

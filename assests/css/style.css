@@ -112,6 +112,256 @@ h2.hero-heading {
 /* home section ends */
 
 
+/* menu section starts */
+section.menu {
+    padding-top: 5%;
+}
+h2.menu-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.menu.head {
+    text-align: center;
+}
+ul#pills-tab {
+    display: flex;
+    justify-content: center;
+}
+button.nav-link.active,
+.nav-pills .show.nav-link {
+    background-color: var(--primary-color-darkred) !important;
+    color: white !important;
+}
+.nav-link {
+    color: black !important;
+}
+button.nav-link:hover {
+    background-color: var(--primary-color-darkred);
+    color: white !important;
+}
+/* starters,lunch,breakfast,dinner */
+.starter-items,
+.lunch-items,
+.breakfast-items,
+.dinner-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 3%;
+
+}
+.starter-card,
+.lunch-card,
+.breakfast-card,
+.dinner-card {
+    width: 21%;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+}
+.starter-imgs,
+.lunch-imgs,
+.breakfast-imgs,
+.dinner-imgs {
+    width: 100%;
+}
+img.starter-img,
+img.lunch-img,
+img.breakfast-img,
+img.dinner-img {
+    width: 100%;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+.starter-card:hover,
+.lunch-card:hover,
+.breakfast-card:hover,
+.dinner-card:hover {
+    transform: scale(1.04);
+}
+.starters-intro,
+.lunch-intro,
+.breakfast-intro,
+.dinner-intro {
+    margin: 2%;
+}
+h4.starters-card-heading,
+h4.lunch-card-heading,
+h4.breakfast-card-heading,
+h4.dinner-card-heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+p.starters-card-para,
+p.lunch-card-para,
+p.breakfast-card-para,
+p.dinner-card-para {
+    font-size: 16px;
+    font-weight: 400;
+}
+p.starters-card-para1,
+p.lunch-card-para1,
+p.breakfast-card-para1,
+p.dinner-card-para1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+del {
+    color: var(--primary-color-darkred);
+    font-weight: 700;
+    padding-left: 3%;
+}
+button.starters-order-btn,
+button.lunch-order-btn,
+button.breakfast-order-btn,
+button.dinner-order-btn {
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5%;
+}
+button.starters-order-btn:hover,
+button.lunch-order-btn:hover,
+button.breakfast-order-btn:hover,
+button.dinner-order-btn:hover {
+    background: transparent;
+    color: var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
+    transition: 0.3s ease-in;
+}
+/* menu section ends */
+
+
+/* restaurant-gallery-section starts */
+section.gallery {
+    padding-top: 5%;
+}
+h2.gallery-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+.gallery-images {
+    width: 30%;
+    overflow: hidden;
+}
+.gallery-images:hover img {
+    transform: scale(1.2);
+}
+img.gallery-img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+
+/* restaurant-gallery-section ends */
+
+/* popular-items section start */
+section.popular-items {
+    padding-top: 5%;
+}
+h2.popular-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+}
+h5.card-title {
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 13px;
+}
+p.card-rate {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+}
+p.card-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.popular-img {
+    overflow: hidden;
+}
+.popular-img img {
+    transition: all 0.5s ease;
+}
+.popular-img:hover img {
+    transform: scale(1.06);
+    border-radius: 50%;
+}
+button.popular-order-btn {
+    background-color: var(--primary-color-darkred);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5%;
+}
+button.popular-order-btn:hover {
+    background: transparent;
+    color: var(--primary-color-red);
+    border: 1px solid var(--primary-color-red);
+    transition: 0.3s ease-in;
+}
+/* popular-items section end */
+
+
+/* master-chef section starts */
+section.master-chef {
+    padding-top: 5%;
+}
+h2.master-heading {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.chef-card {
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 7%;
+    text-align: center;
+}
+.chef-images img {
+    width: 80%;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.chef-images:hover img {
+    transform: scale(1.06) rotate(2deg);
+
+}
+.chef-intro {
+    margin-top: 6%;
+}
+h4.chef-card-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+a.chef-social-link {
+    color: black;
+}
+/* master-chef section ends */
+
+
 /* about section starts */
 section#about {
     padding-top: 5%;
@@ -195,260 +445,6 @@ button.about-btn:hover {
     transition: 0.3s ease-in;
 }
 /* about section ends */
-
-
-/* menu section starts */
-section.menu {
-    padding-top: 5%;
-}
-h2.menu-heading {
-    text-align: center;
-    margin-bottom: 4%;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 44px;
-}
-.menu.head {
-    text-align: center;
-}
-ul#pills-tab {
-    display: flex;
-    justify-content: center;
-}
-button.nav-link.active,
-.nav-pills .show.nav-link {
-    background-color: var(--primary-color-darkred) !important;
-    color: white !important;
-}
-.nav-link {
-    color: black !important;
-}
-button.nav-link:hover {
-    background-color: var(--primary-color-darkred);
-    color: white !important;
-}
-/* starters,lunch,breakfast,dinner */
-.starter-items,
-.lunch-items,
-.breakfast-items,
-.dinner-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    margin-top: 3%;
-
-}
-.starter-card,
-.lunch-card,
-.breakfast-card,
-.dinner-card {
-    width: 21%;
-    border: 1px solid lightgrey;
-    border-radius: 12px;
-}
-.starter-imgs,
-.lunch-imgs,
-.breakfast-imgs,
-.dinner-imgs {
-    width: 100%;
-}
-img.starter-img,
-img.lunch-img,
-img.breakfast-img,
-img.dinner-img {
-    width: 100%;
-    border-radius: 12px;
-    transition: all 0.5s ease;
-}
-.starter-card:hover,
-.lunch-card:hover,
-.breakfast-card:hover,
-.dinner-card:hover {
-    opacity: 0.8;
-    transform: scale(1.04);
-}
-.starters-intro,
-.lunch-intro,
-.breakfast-intro,
-.dinner-intro {
-    margin: 2%;
-}
-h4.starters-card-heading,
-h4.lunch-card-heading,
-h4.breakfast-card-heading,
-h4.dinner-card-heading {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 20px;
-}
-p.starters-card-para,
-p.lunch-card-para,
-p.breakfast-card-para,
-p.dinner-card-para {
-    font-size: 16px;
-    font-weight: 400;
-}
-p.starters-card-para1,
-p.lunch-card-para1,
-p.breakfast-card-para1,
-p.dinner-card-para1 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-}
-del {
-    color: var(--primary-color-darkred);
-    font-weight: 700;
-    padding-left: 3%;
-}
-button.starters-order-btn,
-button.lunch-order-btn,
-button.breakfast-order-btn,
-button.dinner-order-btn {
-    background-color: var(--primary-color-darkred);
-    color: white;
-    border: none;
-    border-radius: 15px;
-    width: 100%;
-    padding: 5%;
-}
-button.starters-order-btn:hover,
-button.lunch-order-btn:hover,
-button.breakfast-order-btn:hover,
-button.dinner-order-btn:hover {
-    background: transparent;
-    color: var(--primary-color-red);
-    border: 1px solid var(--primary-color-red);
-    transition: 0.3s ease-in;
-}
-/* menu section ends */
-
-
-/* restaurant-gallery-section starts */
-section.gallery {
-    padding-top: 5%;
-}
-h2.gallery-heading {
-    text-align: center;
-    margin-bottom: 4%;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 44px;
-}
-.gallery-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 55px;
-}
-.gallery-images {
-    width: 30%;
-    overflow: hidden;
-}
-.gallery-images:hover img {
-    opacity: 0.8;
-    transform: scale(1.2);
-}
-img.gallery-img {
-    width: 100%;
-    transition: all 0.5s ease;
-}
-
-
-/* restaurant-gallery-section ends */
-
-/* popular-items section start */
-section.popular-items {
-    padding-top: 5%;
-}
-h2.popular-heading {
-    text-align: center;
-    margin-bottom: 4%;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 44px;
-}
-h5.card-title {
-    font-size: 13px;
-    font-weight: 800;
-    line-height: 13px;
-}
-p.card-rate {
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 15px;
-}
-p.card-text {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-}
-.popular-img {
-    overflow: hidden;
-}
-.popular-img img {
-    transition: all 0.5s ease;
-}
-.popular-img:hover img {
-    opacity: 0.8;
-    transform: scale(1.06);
-    border-radius: 50%;
-}
-button.popular-order-btn {
-    background-color: var(--primary-color-darkred);
-    color: white;
-    border: none;
-    border-radius: 15px;
-    width: 100%;
-    padding: 5%;
-}
-button.popular-order-btn:hover {
-    background: transparent;
-    color: var(--primary-color-red);
-    border: 1px solid var(--primary-color-red);
-    transition: 0.3s ease-in;
-}
-/* popular-items section end */
-
-
-/* master-chef section starts */
-section.master-chef {
-    padding-top: 5%;
-}
-h2.master-heading {
-    text-align: center;
-    margin-bottom: 4%;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 44px;
-}
-.chef-card {
-    background-color: white;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 7%;
-    text-align: center;
-}
-.chef-images img {
-    width: 80%;
-    border-radius: 50%;
-    transition: all 0.5s ease;
-}
-.chef-images:hover img {
-    opacity: .6;
-    transform: scale(1.06) rotate(2deg);
-
-}
-.chef-intro {
-    margin-top: 6%;
-}
-h4.chef-card-heading {
-    font-size: 20px;
-    font-weight: 600;
-}
-a.chef-social-link {
-    color: black;
-}
-/* master-chef section ends */
 
 
 /* reserve-table section starts */

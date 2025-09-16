@@ -1,4 +1,11 @@
 @media (max-width:1280px) {
+    /* header */
+    button.order-btn {
+    padding: 14px 20px;
+    font-size: 9px;
+    font-weight: 800;
+}
+
 
     /* about section */
     h2.about-title,
@@ -90,8 +97,10 @@
         padding-left: 2px;
     }
 
-    button.order-btn {
+        button.order-btn {
         padding: 14px;
+        font-size: 14px;
+        font-weight: 500;
     }
 
     /* home section */
